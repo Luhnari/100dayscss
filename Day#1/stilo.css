@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+div{
+	display: block;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: linear-gradient(to top right, #43389D 0%, #4ec6ca 100%);
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding:1px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cem {
+	position: relative;	
+	height: 110px;
+	width: 200px;
+	padding: 1px;
+}
+
+.tracinho-um {
+	position: absolute;
+	z-index: 1;
+	transform: rotate(45deg);
+	background: #ffff;
+	height: 40px;
+	width: 20px;
+	left: 5px;	
+	border-radius: 5px;
+	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tracao-um {
+	position: absolute;
+	z-index: 3;
+	background: #ffff;
+	height: 85px;
+	width: 20px;
+	left: 20px;
+	top: 1px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primeiro-zero, .segundo-zero {
+	position: absolute;
+	border: 20px solid #ffff;
+	height: 85px;
+	width: 85px;
+	left: 40px;
+	box-sizing: border-box;
+	border-radius: 80%;	
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primeiro-zero {
+	z-index: 2;
+	left: 35px;
+	top: 1px;
+}
+
+.segundo-zero {
+	z-index: 1;
+	left: 105px;
+	top: 1px;
+}
+
+.text {
+	color: white;
+	display: block;
+	text-align: center;
+	font-family: "Courier New", "Courier", serif;
+	z-index: 20;
+}
+
+.text1 {
+	font-size: 70px;
+	font-weight: 800;
+	line-height: 10px;
+	height: auto;
+	padding: 3px;
+	margin-top: 3px;
+}
+.text2{
+	font-size: 20px; 
+	font-weight: 700;
+	padding: 1px;
+}
